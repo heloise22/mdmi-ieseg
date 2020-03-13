@@ -1,0 +1,144 @@
+body{	
+	background-color: white;
+	color: #000000;
+	font-family: 'Sen', sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+h2,h3,h4 {
+	font-family: sen;
+}
+h1{
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 4px;
+	color: #3e474d;
+	font-size: 32px;
+	font-weight: 900;
+	text-align: center;
+	margin-bottom: 2em;
+	background-image: image(backieseg.jpeg);
+}
+h2{
+	color: #ff914d;
+	font-size: 20px;
+	font-weight: bold;
+	font-weight: 500;
+	text-align: center;
+	line-height: 2;
+	margin-bottom: 1em;
+}
+
+h3{
+	font-weight: bold;
+	color: #ff914d;
+	text-align: center;
+}
+
+h4{
+	font-size: 18px;
+	font-weight: lighter;
+	margin-bottom: 1em;
+	color: #ff914d;
+	text-align: justify;
+}
+
+h5{
+	font-family: sen;
+	font-weight: lighter;
+	line-height: 0;
+	margin-bottom: 1em;
+	font-size: 16px;
+	color: #3e474d;
+	text-align: justify;
+}
+
+h6{
+	font-family: sen;
+	font-weight: lighter;
+	line-height: 1.5;
+	margin-bottom: 1em;
+	font-size: 18px;
+	color: #3e474d;
+}
+
+a{
+	font-family: sen;
+	text-decoration: none;
+	color: #001978;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+a:hover {
+	color: #f9d722;
+	line-height: 4;
+}
+
+hr{
+	width: 700px;
+ 	margin-bottom: 40px auto;
+	align: center;
+	color: #FDEBD0;
+	background-color: #001978;
+}
+
+card-white {
+
+	background-color: black;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color: #f9d722;
+	color: #3e474d;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: #3e474d;
+	color: #ff914d;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	background-color: #001978;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.list-inline i:hover {
+	background-color: #E31B00;
+	color: #BA1B1D;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+}
